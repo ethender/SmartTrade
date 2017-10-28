@@ -38,5 +38,12 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
         <servlet-name>dispatcherServlet</servlet-name>
         <url-pattern>/</url-pattern>
     </servlet-mapping>
+    
+    <servlet>
+    		<servlet-name>TradeTest</servlet-name>
+    		<servlet-class>org.hawks.smarttrade.core.TradeTest</servlet-class>
+    		<load-on-startup>2</load-on-startup>
+    </servlet>
+    
 
 </web-app>
