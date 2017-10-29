@@ -1,8 +1,9 @@
-CREATE TABLE IF NOT EXISTS swifttrade;
+
+CREATE DATABASE IF NOT EXISTS swifttrade;
 
 USE swifttrade;
 
-CREATE TABLE trading(
+CREATE TABLE  IF NOT EXISTS trading(
 tradeid INT PRIMARY KEY AUTO_INCREMENT,
 tradedate VARCHAR(100),
 tradestate varchar(75),
@@ -10,7 +11,7 @@ stocks varchar(250)
 );
 
 
-CREATE TABLE stock(
+CREATE TABLE IF NOT EXISTS  stock(
 stockid INT PRIMARY KEY AUTO_INCREMENT,
 symbol VARCHAR(150) UNIQUE NOT NULL,
 series VARCHAR(25),
