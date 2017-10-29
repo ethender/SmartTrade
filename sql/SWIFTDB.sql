@@ -30,6 +30,6 @@ tradedquantity FLOAT(15),
 turnoverinlakhs FLOAT(15),
 lastcropannouncementdate VARCHAR(75),
 lastcropannouncement VARCHAR(255),
-stockState VARCHAR(75)
+stockstate VARCHAR(75)
 );
 
