@@ -18,7 +18,7 @@ public class TradeScheduler implements TradeJobCycle{
 	 */
 	private static final  String TRIGGERNAME = "SWIFTSCHEDULER";
 	private static final String  GROUP = "SWIFTGROUP";
-	private static final int MINUTESREPEAT = 5;
+	private static final int MINUTESREPEAT = 1;
 	
 	/*
 	 * (non-Javadoc)
